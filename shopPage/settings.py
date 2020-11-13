@@ -141,7 +141,7 @@ EMAIL_USE_TLS = True
 EMAIL_HOST_PASSWORD = "************"
 EMAIL_HOST_USER = "*************"
 
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
-# ALLOWED_HOSTS = ['ivansvirskiycrm1.herokuapp.com', '127.0.0.1 ']
+# ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['ivansvirskiycrm1.herokuapp.com', '127.0.0.1 ']
