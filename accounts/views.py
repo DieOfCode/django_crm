@@ -88,6 +88,7 @@ def products(request):
 
 
 @login_required(login_url="login")
+@allowed_users(allowed_roles=["customer", "admin"])
 def customer(request, pk_test):
     customers = Customer.objects.get(id=pk_test)
     orders = customers.order_set.all()

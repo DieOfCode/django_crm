@@ -6,7 +6,7 @@ from accounts.views import home, products, customer, create_order, \
     account_settings
 
 urlpatterns = [
-    path('', home, name="home"),
+    path('/', home, name="home"),
     path('products/', products, name="products"),
     path('customer/<str:pk_test>', customer, name="customer"),
     path('create_order/<str:pk>', create_order, name="create_order"),
