@@ -144,4 +144,4 @@ EMAIL_HOST_USER = "*************"
 DEBUG = False
 
 # ALLOWED_HOSTS = []
-ALLOWED_HOSTS = ['ivansvirskiycrm1.herokuapp.com', '127.0.0.1 ']
+ALLOWED_HOSTS = ['ivansvirskiycrm1.herokuapp.com', '127.0.0.1']
